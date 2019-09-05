@@ -1,0 +1,15 @@
+[submodule "martin_kuba.work_env"]
+	path = martin_kuba.work_env
+	url = https://github.com/martin-kuba/ansible-role-work-env.git
+[submodule "cesnet.metacentrum_monitoring"]
+	path = cesnet.metacentrum_monitoring
+	url = https://github.com/CESNET/ansible-role-metacentrum-monitoring.git
+[submodule "cesnet.unattended_upgrades"]
+	path = cesnet.unattended_upgrades
+	url = https://github.com/CESNET/ansible-role-unattended-upgrades.git
+[submodule "cesnet.igtf_cas"]
+	path = cesnet.igtf_cas
+	url = https://github.com/CESNET/ansible-role-igtf-cas.git
+[submodule "cesnet.apache_tls"]
+	path = cesnet.apache_tls
+	url = https://github.com/CESNET/ansible-role-apache-tls.git
