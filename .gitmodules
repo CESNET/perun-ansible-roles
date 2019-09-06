@@ -13,6 +13,6 @@
 [submodule "cesnet.apache_tls"]
 	path = cesnet.apache_tls
 	url = https://github.com/CESNET/ansible-role-apache-tls.git
-[submodule "roles/cesnet.yubikeys"]
-	path = roles/cesnet.yubikeys
+[submodule "cesnet.yubikeys"]
+	path = cesnet.yubikeys
 	url = https://github.com/CESNET/ansible-role-yubikeys.git
