@@ -16,3 +16,6 @@
 [submodule "cesnet.yubikeys"]
 	path = cesnet.yubikeys
 	url = https://github.com/CESNET/ansible-role-yubikeys.git
+[submodule "cesnet.firewall"]
+	path = cesnet.firewall
+	url = https://github.com/CESNET/ansible-role-firewall.git
