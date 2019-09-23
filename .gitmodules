@@ -19,3 +19,9 @@
 [submodule "cesnet.firewall"]
 	path = cesnet.firewall
 	url = https://github.com/CESNET/ansible-role-firewall.git
+[submodule "cesnet.apache2"]
+	path = cesnet.apache2
+	url = https://github.com/CESNET/ansible-role-apache2.git
+[submodule "cesnet.mount_nfs4"]
+	path = cesnet.mount_nfs4
+	url = https://github.com/CESNET/ansible-role-mount-nfs4.git
