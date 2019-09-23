@@ -25,3 +25,9 @@
 [submodule "cesnet.mount_nfs4"]
 	path = cesnet.mount_nfs4
 	url = https://github.com/CESNET/ansible-role-mount-nfs4.git
+[submodule "cesnet.postgresql"]
+	path = cesnet.postgresql
+	url = https://github.com/CESNET/ansible-role-postgresql.git
+[submodule "cesnet.tomcat"]
+	path = cesnet.tomcat
+	url = https://github.com/CESNET/ansible-role-tomcat.git
