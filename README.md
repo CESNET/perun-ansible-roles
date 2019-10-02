@@ -15,10 +15,19 @@ When any of the roles get updated, first update the perun-ansible-roles repo to 
 git submodule update --init --recursive --remote
 git commit -a -S -m "updated submodules"
 ```
-then update the repos linking perun-ansible-roles by issuing:
-```bash
-git submodule update --init --recursive 
-```
+(The --remote option of "git submodule update" tells to pull the master branch of the submodules,
+without it the commits referenced in super-repo are checked out.)
 
-The --remote option of "git submodule update" tells to pull the master branch of the submodules,
-without it the commits referenced in super-repo are checked out.
+Then update the repos linking perun-ansible-roles by issuing:
+```bash
+cd repo-with-playbook
+cd cesnet_roles
+git checkout master
+git pull
+git submodule update --init --recursive
+cd ..
+git submodule status --recursive
+git status
+git add cesnet_roles
+git commit -S -m "updated perun-ansible-roles to version X"
+```
