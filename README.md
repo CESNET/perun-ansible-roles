@@ -15,8 +15,7 @@ When any of the roles get updated, first update the perun-ansible-roles repo to 
 git submodule update --init --recursive --remote
 git commit -a -S -m "updated cesnet.xxx to version V.W"
 git tag -a vX.Y -m "updated cesnet.xxx to version V.W"
-git push
-git push --tags
+git push --follow-tags
 ```
 (The --remote option of "git submodule update" tells to pull the master branch of the submodules,
 without it the commits referenced in super-repo are checked out.)
@@ -33,4 +32,5 @@ git submodule status --recursive
 git status
 git add cesnet_roles
 git commit -S -m "updated perun-ansible-roles to version X.Y"
+git push
 ```
