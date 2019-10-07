@@ -31,3 +31,6 @@
 [submodule "cesnet.tomcat"]
 	path = cesnet.tomcat
 	url = https://github.com/CESNET/ansible-role-tomcat.git
+[submodule "cesnet.shibboleth_idp"]
+	path = cesnet.shibboleth_idp
+	url = https://github.com/CESNET/ansible-role-shibboleth-idp.git
