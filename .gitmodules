@@ -37,3 +37,6 @@
 [submodule "cesnet.shibboleth_sp"]
 	path = cesnet.shibboleth_sp
 	url = https://github.com/CESNET/ansible-role-shibboleth-sp.git
+[submodule "cesnet.sendmail"]
+	path = cesnet.sendmail
+	url = https://github.com/CESNET/ansible-role-sendmail.git
