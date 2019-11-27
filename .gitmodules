@@ -34,3 +34,6 @@
 [submodule "cesnet.shibboleth_idp"]
 	path = cesnet.shibboleth_idp
 	url = https://github.com/CESNET/ansible-role-shibboleth-idp.git
+[submodule "cesnet.shibboleth_sp"]
+	path = cesnet.shibboleth_sp
+	url = https://github.com/CESNET/ansible-role-shibboleth-sp.git
