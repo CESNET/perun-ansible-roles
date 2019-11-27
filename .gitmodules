@@ -40,3 +40,6 @@
 [submodule "cesnet.sendmail"]
 	path = cesnet.sendmail
 	url = https://github.com/CESNET/ansible-role-sendmail.git
+[submodule "cesnet.mariadb"]
+	path = cesnet.mariadb
+	url = https://github.com/CESNET/ansible-role-mariadb.git
