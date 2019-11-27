@@ -43,3 +43,6 @@
 [submodule "cesnet.mariadb"]
 	path = cesnet.mariadb
 	url = https://github.com/CESNET/ansible-role-mariadb.git
+[submodule "cesnet.spreg"]
+	path = cesnet.spreg
+	url = https://github.com/CESNET/ansible-role-spreg.git
