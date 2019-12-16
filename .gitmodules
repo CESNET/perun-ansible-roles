@@ -46,3 +46,6 @@
 [submodule "cesnet.spreg"]
 	path = cesnet.spreg
 	url = https://github.com/CESNET/ansible-role-spreg.git
+[submodule "cesnet.certbot_certs"]
+	path = cesnet.certbot_certs
+	url = https://github.com/CESNET/ansible-role-certbot-certs.git
