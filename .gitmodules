@@ -46,3 +46,9 @@
 [submodule "cesnet.spreg"]
 	path = cesnet.spreg
 	url = https://github.com/CESNET/ansible-role-spreg.git
+[submodule "cesnet.logrotate"]
+	path = cesnet.logrotate
+	url = https://github.com/CESNET/ansible-role-logrotate.git
+[submodule "cesnet.rsyslog"]
+	path = cesnet.rsyslog
+	url = https://github.com/CESNET/ansible-role-rsyslog.git
