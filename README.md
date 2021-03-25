@@ -10,15 +10,26 @@ git submodule update --init --recursive
 echo "roles_path=cesnet_roles" >>ansible.cfg
 ```
 
-When any of the roles get updated, first update the perun-ansible-roles repo to latest versions of submodules:
+When any of the roles get updated, either update the perun-ansible-roles repo to latest versions of all submodules:
+(the --remote option of "git submodule update" tells to pull the master branches of the submodules,
+without it the commits referenced in super-repo are checked out)
 ```bash
 git submodule update --init --recursive --remote
+```
+or update just the roles that you want to update to specific versions:
+```bash
+cd cesnet.xxx
+git fetch
+git checkout vV.W
+cd ..
+```
+
+Then update the main perun-ansible-roles repo:
+```bash
 git commit -a -S -m "updated cesnet.xxx to version V.W"
 git tag -a vX.Y -m "updated cesnet.xxx to version V.W"
 git push --follow-tags
 ```
-(The --remote option of "git submodule update" tells to pull the master branch of the submodules,
-without it the commits referenced in super-repo are checked out.)
 
 Then update the repos linking perun-ansible-roles by issuing:
 ```bash
