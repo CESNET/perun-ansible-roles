@@ -55,3 +55,9 @@
 [submodule "cesnet.openldap"]
 	path = cesnet.openldap
 	url = https://github.com/CESNET/ansible-role-openldap.git
+[submodule "cesnet.rsyslog"]
+	path = cesnet.rsyslog
+	url = https://github.com/CESNET/ansible-role-rsyslog.git
+[submodule "cesnet.logrotate"]
+	path = cesnet.logrotate
+	url = https://github.com/CESNET/ansible-role-logrotate.git
