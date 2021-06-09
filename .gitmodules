@@ -51,7 +51,7 @@
 	url = https://github.com/CESNET/ansible-role-certbot-certs.git
 [submodule "cesnet.proxy_env"]
 	path = cesnet.proxy_env
-	url = git@github.com:CESNET/ansible-role-proxy-env.git
+	url = https://github.com/CESNET/ansible-role-proxy-env.git
 [submodule "cesnet.openldap"]
 	path = cesnet.openldap
 	url = https://github.com/CESNET/ansible-role-openldap.git
