@@ -63,4 +63,4 @@
 	url = https://github.com/CESNET/ansible-role-logrotate.git
 [submodule "cesnet.sendmail_for_docker"]
 	path = cesnet.sendmail_for_docker
-	url = git@github.com:CESNET/ansible-role-sendmail-for-docker.git
+	url = https://github.com/CESNET/ansible-role-sendmail-for-docker.git
