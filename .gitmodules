@@ -61,3 +61,6 @@
 [submodule "cesnet.sendmail_for_docker"]
 	path = cesnet.sendmail_for_docker
 	url = https://github.com/CESNET/ansible-role-sendmail-for-docker.git
+[submodule "cesnet.ntp"]
+	path = cesnet.ntp
+	url = https://github.com/CESNET/ansible-role-ntp.git
