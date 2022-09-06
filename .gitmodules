@@ -64,3 +64,6 @@
 [submodule "cesnet.ntp"]
 	path = cesnet.ntp
 	url = https://github.com/CESNET/ansible-role-ntp.git
+[submodule "cesnet.proxyaai_docker"]
+	path = cesnet.proxyaai_docker
+	url = https://github.com/CESNET/ansible-role-proxyaai-docker-environment.git
