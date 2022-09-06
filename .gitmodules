@@ -67,3 +67,6 @@
 [submodule "cesnet.proxyaai_docker"]
 	path = cesnet.proxyaai_docker
 	url = https://github.com/CESNET/ansible-role-proxyaai-docker-environment.git
+[submodule "cesnet.reverseproxy_docker"]
+	path = cesnet.reverseproxy_docker
+	url = https://github.com/CESNET/ansible-role-reverseproxy-docker.git
