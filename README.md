@@ -18,8 +18,8 @@ git submodule update --init --recursive --remote
 ```
 or update just the roles that you want to update to specific versions:
 ```bash
+git fetch --recurse-submodules --prune
 cd cesnet.xxx
-git fetch
 git checkout vV.W
 cd ..
 ```
