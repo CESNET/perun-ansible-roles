@@ -73,3 +73,6 @@
 [submodule "cesnet.msmtp"]
 	path = cesnet.msmtp
 	url = https://github.com/CESNET/ansible-role-msmtp.git
+[submodule "cesnet.remote_logging"]
+	path = cesnet.remote_logging
+	url = https://github.com/CESNET/ansible-role-remote-logging.git
