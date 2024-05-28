@@ -79,3 +79,6 @@
 [submodule "cesnet.work_env"]
 	path = cesnet.work_env
 	url = https://github.com/CESNET/ansible-role-work-env.git
+[submodule "cesnet.docker"]
+	path = cesnet.docker
+	url = https://github.com/CESNET/ansible-role-docker.git
