@@ -76,3 +76,6 @@
 [submodule "cesnet.remote_logging"]
 	path = cesnet.remote_logging
 	url = https://github.com/CESNET/ansible-role-remote-logging.git
+[submodule "cesnet.work_env"]
+	path = cesnet.work_env
+	url = https://github.com/CESNET/ansible-role-work-env.git
