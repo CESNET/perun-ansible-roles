@@ -82,3 +82,6 @@
 [submodule "cesnet.docker"]
 	path = cesnet.docker
 	url = https://github.com/CESNET/ansible-role-docker.git
+[submodule "cesnet.basic_machine"]
+	path = cesnet.basic_machine
+	url = https://github.com/CESNET/ansible-role-basic-machine.git
