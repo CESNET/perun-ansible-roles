@@ -85,3 +85,6 @@
 [submodule "cesnet.basic_machine"]
 	path = cesnet.basic_machine
 	url = https://github.com/CESNET/ansible-role-basic-machine.git
+[submodule "cesnet.ds389"]
+	path = cesnet.ds389
+	url = https://github.com/CESNET/cesnet.ds389.git
