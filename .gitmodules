@@ -88,3 +88,9 @@
 [submodule "cesnet.ds389"]
 	path = cesnet.ds389
 	url = https://github.com/CESNET/cesnet.ds389.git
+[submodule "cesnet.perun_docker_server"]
+	path = cesnet.perun_docker_server
+	url = https://github.com/CESNET/ansible-role-perun-docker-server.git
+[submodule "cesnet.perun_ldap_config"]
+	path = cesnet.perun_ldap_config
+	url = https://github.com/CESNET/ansible-role-perun-ldap-config.git
