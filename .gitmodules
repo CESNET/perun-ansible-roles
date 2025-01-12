@@ -94,3 +94,15 @@
 [submodule "cesnet.perun_ldap_config"]
 	path = cesnet.perun_ldap_config
 	url = https://github.com/CESNET/ansible-role-perun-ldap-config.git
+[submodule "cesnet.proxyidp_v1"]
+	path = cesnet.proxyidp_v1
+	url = https://github.com/CESNET/ansible-role-proxyidp-v1.git
+[submodule "cesnet.exabgp_docker"]
+	path = cesnet.exabgp_docker
+	url = https://github.com/CESNET/ansible-role-exabgp-docker.git
+[submodule "cesnet.pi_docker"]
+	path = cesnet.pi_docker
+	url = https://github.com/CESNET/ansible-role-pi-docker.git
+[submodule "cesnet.pgbouncers_docker"]
+	path = cesnet.pgbouncers_docker
+	url = https://github.com/CESNET/ansible-role-pgbouncers-docker.git
