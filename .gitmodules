@@ -106,3 +106,6 @@
 [submodule "cesnet.pgbouncers_docker"]
 	path = cesnet.pgbouncers_docker
 	url = https://github.com/CESNET/ansible-role-pgbouncers-docker.git
+[submodule "cesnet.etcd_cluster"]
+	path = cesnet.etcd_cluster
+	url = https://github.com/CESNET/ansible-role-etcd-cluster.git
