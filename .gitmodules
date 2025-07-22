@@ -109,3 +109,6 @@
 [submodule "cesnet.etcd_cluster"]
 	path = cesnet.etcd_cluster
 	url = https://github.com/CESNET/ansible-role-etcd-cluster.git
+[submodule "cesnet.bird2"]
+	path = cesnet.bird2
+	url = https://github.com/CESNET/ansible-role-bird2.git
