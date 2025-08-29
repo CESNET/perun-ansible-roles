@@ -112,3 +112,6 @@
 [submodule "cesnet.bird2"]
 	path = cesnet.bird2
 	url = https://github.com/CESNET/ansible-role-bird2.git
+[submodule "cesnet.postgresql_kubernetes"]
+	path = cesnet.postgresql_kubernetes
+	url = https://github.com/CESNET/ansible-role-postgresql-kubernetes.git
