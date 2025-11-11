@@ -115,3 +115,6 @@
 [submodule "cesnet.postgresql_kubernetes"]
 	path = cesnet.postgresql_kubernetes
 	url = https://github.com/CESNET/ansible-role-postgresql-kubernetes.git
+[submodule "cesnet.rciam_registry_docker"]
+	path = cesnet.rciam_registry_docker
+	url = https://github.com/CESNET/perun-ansible-roles.git
