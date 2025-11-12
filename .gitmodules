@@ -117,7 +117,7 @@
 	url = https://github.com/CESNET/ansible-role-postgresql-kubernetes.git
 [submodule "cesnet.rciam_registry_docker"]
 	path = cesnet.rciam_registry_docker
-	url = https://github.com/CESNET/perun-ansible-roles.git
+	url = https://github.com/CESNET/ansible-role-rciam-registry-docker.git
 [submodule "cesnet.perun_k8s_server"]
 	path = cesnet.perun_k8s_server
 	url = git@github.com:CESNET/ansible-role-perun-k8s-server.git
