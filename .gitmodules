@@ -121,3 +121,6 @@
 [submodule "cesnet.perun_k8s_server"]
 	path = cesnet.perun_k8s_server
 	url = https://github.com/CESNET/ansible-role-perun-k8s-server.git
+[submodule "cesnet.postfix"]
+	path = cesnet.postfix
+	url = git@github.com:CESNET/ansible-role-postfix.git
