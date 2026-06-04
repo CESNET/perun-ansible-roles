@@ -121,3 +121,6 @@
 [submodule "cesnet.postfix"]
 	path = cesnet.postfix
 	url = git@github.com:CESNET/ansible-role-postfix.git
+[submodule "cesnet.k8s_helm"]
+	path = cesnet.k8s_helm
+	url = https://github.com/CESNET/ansible-role-k8s-helm.git
